@@ -207,7 +207,7 @@ def test_api_endpoints():
     assert r.status_code == 200
     body = r.json()
     assert body["mock"] is True
-    assert body["files"] > 200
+    assert body["files"] > 100
     assert body["flags"]["total"] >= len(MANIFEST["items"])
     assert body["risk"]["score"] > 0
 

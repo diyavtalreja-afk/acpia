@@ -1,18 +1,43 @@
 {
+  "note": "MOCK/DEMO INVENTED PLACEHOLDER HASHES ONLY - NEVER REAL HASHES",
   "entries": [
     {
-      "id": "MOCK-EXACT-01",
-      "label": "Exact Match",
-      "sha256": "ae6c706824ec1d4e3bc58820428f51e8d467ae591595049697a2172dcbbd1112",
+      "id": "MOCK-0001",
+      "label": "MOCK Known CSAM Match #1",
+      "sha256": "97a14cac82c033718869e3fe450badcb958fa3980af0f8a02fce744e7c355326",
+      "phash": "aa8839cbe7c753a7d62f3f40a88d439a8dea22aa690d38459d4b2eca0c737bd2",
+      "category": "image",
+      "mock": true
+    },
+    {
+      "id": "MOCK-0002",
+      "label": "MOCK Known CSAM Match #2",
+      "sha256": "22bfa721b941e80b7b9861cd87f960119168389af65aac00afddb21dc4730cd3",
+      "phash": "aa883c2b0bf43df49f9162f26ecd48ae12c43d83be1c0896f6d5274ef2e47889",
+      "category": "image",
+      "mock": true
+    },
+    {
+      "id": "MOCK-0007",
+      "label": "MOCK Known CSAM Match #7",
+      "sha256": "b2144decf35a52ca5fd384a481d66729ccb3f67170e592cd928a985925e8f949",
+      "phash": "a28a50dfd93e427c24592d30cb667b8c650a6d238eec13babdd26639f44e1d9c",
+      "category": "image",
+      "mock": true
+    },
+    {
+      "id": "MOCK-EXACT-HOLIDAY",
+      "label": "MOCK Exact Match Holiday",
+      "sha256": "fd2e109af7057cd27cfda3388dbe278cb851db226ff12d5dae6de39a5149bd70",
       "phash": "8000000000000000000000000000000000000000000000000000000000000000",
       "category": "image",
       "mock": true
     },
     {
-      "id": "MOCK-PHASH-01",
-      "label": "Visual Match",
-      "sha256": "8ab890e2cd4017af823bc3669f07c72ed3c375bd067c8da190f02d633d05ac42",
-      "phash": "8000000000000000000000000000000000000000000000000000000000000000",
+      "id": "MOCK-EXACT-SYNTH",
+      "label": "MOCK Exact Match Synth",
+      "sha256": "fd0a81a3faba6bd212c87157b27ff2ff89531097bfc2b4dd15017698020ad50a",
+      "phash": "e659219b99268e6466d9659b99269b6464cbccf36639318c99a6ce7366c9319c",
       "category": "image",
       "mock": true
     }

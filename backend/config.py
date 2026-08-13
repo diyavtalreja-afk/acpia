@@ -74,7 +74,7 @@ ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-20250514")
 OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 
 # Scan pacing: tiny per-file delay so live progress is visible on stage.
-# At ~2,300 files a 0.001s delay keeps the whole scan under ~15 s.
+# At ~150 files a 0.001s delay keeps progress visible without slowing the demo.
 SCAN_DELAY_PER_FILE = float(os.environ.get("ACPIA_SCAN_DELAY", "0.001"))
 
 # Perceptual hash match threshold (hamming distance)

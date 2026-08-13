@@ -55,11 +55,11 @@ on a network error.
 
 ## Scale
 
-The mock device ships with **2,310 files** (539 images, 1,200+ documents,
-300 data files, 200 PDFs, 60 audio clips, 4 chat exports). Full scan ≈ 15 s
-(parallel fingerprinting, throttled progress events, one-time cached graph
-layout). All flaggable content scales independently of volume — bump the
-counts in `scripts/generate_mock_device.py` and the pipeline stays O(n).
+The mock device ships with **146 files** (38 images, 60 documents, 20 data
+files, 12 PDFs, 12 audio clips, 4 chat exports). Full scan completes in a few
+seconds (parallel fingerprinting, throttled progress events, one-time cached
+graph layout). All flaggable content scales independently of volume — adjust
+the targets in `scripts/generate_mock_device.py` and the pipeline stays O(n).
 
 ## Architecture
 

@@ -1,0 +1,6 @@
+[28/07/26, 15:00:00] Sneha: Coordinates near Harbour Line station #1.
+[28/07/26, 15:01:00] Sneha: Coordinates near Harbour Line station #2.
+[28/07/26, 15:02:00] Sneha: Coordinates near Harbour Line station #3.
+[28/07/26, 15:03:00] Sneha: Coordinates near Harbour Line station #4.
+[28/07/26, 15:04:00] Sneha: Coordinates near Harbour Line station #5.
+[28/07/26, 16:00:00] Deepa: Confirmed.
