@@ -1,0 +1,391 @@
+{
+  "note": "ACPIA MOCK/DEMO \u2014 expected detections. All paths relative to mock_device/.",
+  "generated_at": "2026-08-04T15:14:42+05:30",
+  "seizure_ts": "2026-08-01T10:00:00+05:30",
+  "reference_ts": "2026-08-04T09:00:00+05:30",
+  "items": [
+    {
+      "path": "photos/holiday_photo.jpg",
+      "expect": {
+        "rules": [
+          "hash_match_exact",
+          "renamed_extension"
+        ],
+        "min_score": 70
+      }
+    },
+    {
+      "path": "photos/vacation_2.jpg",
+      "expect": {
+        "rules": [
+          "hash_match_exact",
+          "renamed_extension"
+        ],
+        "min_score": 70
+      }
+    },
+    {
+      "path": "photos/IMG_4471.jpg",
+      "expect": {
+        "rules": [
+          "hash_match_phash",
+          "modified_after_seizure"
+        ],
+        "min_score": 55
+      }
+    },
+    {
+      "path": "photos/photo_similar_2.jpg",
+      "expect": {
+        "rules": [
+          "hash_match_phash",
+          "modified_after_seizure"
+        ],
+        "min_score": 55
+      }
+    },
+    {
+      "path": "ai_generated/scene_glitch_3.png",
+      "expect": {
+        "rules": [
+          "hash_match_phash",
+          "synthetic_media",
+          "modified_after_seizure"
+        ],
+        "min_score": 80
+      }
+    },
+    {
+      "path": "ai_generated/scene_glitch_original.png",
+      "expect": {
+        "rules": [
+          "hash_match_exact",
+          "synthetic_media"
+        ],
+        "min_score": 75
+      }
+    },
+    {
+      "path": "ai_generated/abstract_7.png",
+      "expect": {
+        "rules": [
+          "synthetic_media",
+          "modified_after_seizure"
+        ],
+        "min_score": 45
+      }
+    },
+    {
+      "path": "photos/random_1.png",
+      "expect": {
+        "rules": [
+          "synthetic_media"
+        ],
+        "min_score": 25
+      }
+    },
+    {
+      "path": "data/archive_backup.jpg",
+      "expect": {
+        "rules": [
+          "renamed_extension",
+          "modified_after_seizure"
+        ],
+        "min_score": 40
+      }
+    },
+    {
+      "path": "data/notes_backup.png",
+      "expect": {
+        "rules": [
+          "renamed_extension"
+        ],
+        "min_score": 20
+      }
+    },
+    {
+      "path": "documents/report_final.pdf",
+      "expect": {
+        "rules": [
+          "renamed_extension"
+        ],
+        "min_score": 20
+      }
+    },
+    {
+      "path": ".notes_archive.txt",
+      "expect": {
+        "rules": [
+          "hidden_file"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "chats/chat_arun_manoj.txt",
+      "expect": {
+        "rules": [
+          "location_night_activity",
+          "coded_language"
+        ],
+        "min_score": 25
+      }
+    },
+    {
+      "path": "chats/chat_sneha_deepa.txt",
+      "expect": {
+        "rules": [
+          "location_night_activity"
+        ],
+        "min_score": 15
+      }
+    },
+    {
+      "path": "data/office_notes.md",
+      "expect": {
+        "rules": [
+          "modified_after_seizure"
+        ],
+        "min_score": 20
+      }
+    },
+    {
+      "path": "data/budget_v2.csv",
+      "expect": {
+        "rules": [
+          "modified_after_seizure"
+        ],
+        "min_score": 20
+      }
+    },
+    {
+      "path": "photos/new_photo.png",
+      "expect": {
+        "rules": [
+          "modified_after_seizure"
+        ],
+        "min_score": 20
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0001.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0002.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0003.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0004.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0005.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0006.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0007.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0008.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0009.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0010.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0011.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    },
+    {
+      "path": "documents/photoburst/DSC_0012.jpg",
+      "expect": {
+        "rules": [
+          "bulk_duplication"
+        ],
+        "min_score": 10
+      }
+    }
+  ],
+  "synthetic_images": [
+    {
+      "type": "seeded_noise",
+      "seed": 42,
+      "tile": 64,
+      "alpha": 0.14,
+      "region": "center",
+      "saved_as": "png",
+      "path": "ai_generated/scene_glitch_3.png",
+      "expect_score_min": 0.75
+    },
+    {
+      "type": "seeded_noise",
+      "seed": 42,
+      "tile": 64,
+      "alpha": 0.14,
+      "region": "center",
+      "saved_as": "png",
+      "path": "ai_generated/scene_glitch_original.png",
+      "expect_score_min": 0.75
+    },
+    {
+      "type": "seeded_noise",
+      "seed": 42,
+      "tile": 64,
+      "alpha": 0.14,
+      "region": "center",
+      "saved_as": "png",
+      "path": "ai_generated/abstract_7.png",
+      "expect_score_min": 0.75
+    },
+    {
+      "type": "seeded_noise",
+      "seed": 42,
+      "tile": 64,
+      "alpha": 0.14,
+      "region": "center",
+      "saved_as": "png",
+      "path": "photos/random_1.png",
+      "expect_score_min": 0.75
+    },
+    {
+      "type": "seeded_noise",
+      "seed": 42,
+      "tile": 64,
+      "alpha": 0.14,
+      "region": "center",
+      "saved_as": "png",
+      "path": "ai_generated/gen_art_01.png",
+      "expect_score_min": 0.75
+    },
+    {
+      "type": "seeded_noise",
+      "seed": 42,
+      "tile": 64,
+      "alpha": 0.14,
+      "region": "center",
+      "saved_as": "png",
+      "path": "ai_generated/gen_art_05.png",
+      "expect_score_min": 0.75
+    }
+  ],
+  "natural_controls": [
+    {
+      "path": "photos/photo_000.png",
+      "expect_score_max": 0.25
+    },
+    {
+      "path": "photos/photo_010.jpg",
+      "expect_score_max": 0.25
+    },
+    {
+      "path": "documents/photoburst/DSC_0001.jpg",
+      "expect_score_max": 0.25
+    },
+    {
+      "path": "pdfs/scan_0001.pdf",
+      "expect_score_max": 0.25
+    },
+    {
+      "path": "photos/IMG_4471.jpg",
+      "expect_score_max": 0.25
+    }
+  ],
+  "queries": [
+    {
+      "question": "Show me every conversation mentioning Harbour Line in the last 30 days.",
+      "expect": {
+        "conversations": [
+          "arun_manoj",
+          "sneha_deepa"
+        ],
+        "min_messages": 9,
+        "intent": "find_messages_mentioning"
+      }
+    },
+    {
+      "question": "Who was the most active contact at night?",
+      "expect": {
+        "top": "Manoj P",
+        "min_count": 13,
+        "intent": "most_active_contact"
+      }
+    },
+    {
+      "question": "Find images similar to flag-3.",
+      "expect": {
+        "min_similar": 1,
+        "intent": "find_files_similar_to"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "id": "MOCK-EXACT-01",
+      "label": "Exact Match",
+      "sha256": "ae6c706824ec1d4e3bc58820428f51e8d467ae591595049697a2172dcbbd1112",
+      "phash": "8000000000000000000000000000000000000000000000000000000000000000",
+      "category": "image",
+      "mock": true
+    },
+    {
+      "id": "MOCK-PHASH-01",
+      "label": "Visual Match",
+      "sha256": "8ab890e2cd4017af823bc3669f07c72ed3c375bd067c8da190f02d633d05ac42",
+      "phash": "8000000000000000000000000000000000000000000000000000000000000000",
+      "category": "image",
+      "mock": true
+    }
+  ]
+}
